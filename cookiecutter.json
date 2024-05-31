@@ -1,4 +1,5 @@
 {
-    "project_name": "killercoda-assets"
+    "_copy_without_render": [
+        "*"
+    ]
 }
-
