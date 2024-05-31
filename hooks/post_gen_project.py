@@ -14,7 +14,10 @@ def move_files(src, dst):
 if __name__ == "__main__":
     # Assuming this script runs in the generated project directory
     current_directory = os.getcwd()
-    src_directory = os.path.join(current_directory, '{{cookiecutter.project_name}}')
+    src_directory = os.path.join(current_directory, 'killercoda-assets')
+    
+    print(f"Current directory: {current_directory}")
+    print(f"Source directory: {src_directory}")
     
     if os.path.exists(src_directory):
         move_files(src_directory, current_directory)
